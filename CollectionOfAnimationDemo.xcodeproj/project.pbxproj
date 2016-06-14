@@ -36,6 +36,7 @@
 		D10A8C131CD492640083D2D8 /* fold.caf in Resources */ = {isa = PBXBuildFile; fileRef = D10A8C101CD492640083D2D8 /* fold.caf */; };
 		D10A8C141CD492640083D2D8 /* selected.caf in Resources */ = {isa = PBXBuildFile; fileRef = D10A8C111CD492640083D2D8 /* selected.caf */; };
 		D10A8C171CD4B09F0083D2D8 /* DragToRedrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D10A8C161CD4B09F0083D2D8 /* DragToRedrawViewController.m */; };
+		D10A8C1A1CD4BD4B0083D2D8 /* DragToRedView.m in Sources */ = {isa = PBXBuildFile; fileRef = D10A8C191CD4BD4B0083D2D8 /* DragToRedView.m */; };
 		D127A2931CD33F6D00CCE3E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D127A2921CD33F6D00CCE3E6 /* main.m */; };
 		D127A2961CD33F6D00CCE3E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D127A2951CD33F6D00CCE3E6 /* AppDelegate.m */; };
 		D127A2991CD33F6D00CCE3E6 /* ZoomAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D127A2981CD33F6D00CCE3E6 /* ZoomAnimationViewController.m */; };
@@ -45,6 +46,10 @@
 		D127A2AD1CD34BCB00CCE3E6 /* ThreeDAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D127A2AC1CD34BCB00CCE3E6 /* ThreeDAnimationViewController.m */; };
 		D127A2AF1CD3504E00CCE3E6 /* 111.png in Resources */ = {isa = PBXBuildFile; fileRef = D127A2AE1CD3504E00CCE3E6 /* 111.png */; };
 		D127A2B21CD355F800CCE3E6 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D127A2B11CD355F800CCE3E6 /* MainTableViewController.m */; };
+		D156CA5F1D0FFD7600AF1B67 /* TaoBaoPopUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D156CA5E1D0FFD7600AF1B67 /* TaoBaoPopUpViewController.m */; };
+		D1FED0F81D06CF9500E6BC90 /* PieMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FED0F71D06CF9500E6BC90 /* PieMenuViewController.m */; };
+		D1FED0FC1D06D0BB00E6BC90 /* PieMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FED0FB1D06D0BB00E6BC90 /* PieMenuView.m */; };
+		D1FED0FF1D06D3D500E6BC90 /* PieView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FED0FE1D06D3D500E6BC90 /* PieView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +89,8 @@
 		D10A8C111CD492640083D2D8 /* selected.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = selected.caf; sourceTree = "<group>"; };
 		D10A8C151CD4B09F0083D2D8 /* DragToRedrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragToRedrawViewController.h; sourceTree = "<group>"; };
 		D10A8C161CD4B09F0083D2D8 /* DragToRedrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragToRedrawViewController.m; sourceTree = "<group>"; };
+		D10A8C181CD4BD4B0083D2D8 /* DragToRedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragToRedView.h; sourceTree = "<group>"; };
+		D10A8C191CD4BD4B0083D2D8 /* DragToRedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragToRedView.m; sourceTree = "<group>"; };
 		D127A28E1CD33F6C00CCE3E6 /* CollectionOfAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionOfAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D127A2921CD33F6D00CCE3E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D127A2941CD33F6D00CCE3E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -100,6 +107,14 @@
 		D127A2AE1CD3504E00CCE3E6 /* 111.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 111.png; sourceTree = "<group>"; };
 		D127A2B01CD355F800CCE3E6 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
 		D127A2B11CD355F800CCE3E6 /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		D156CA5D1D0FFD7600AF1B67 /* TaoBaoPopUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaoBaoPopUpViewController.h; sourceTree = "<group>"; };
+		D156CA5E1D0FFD7600AF1B67 /* TaoBaoPopUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaoBaoPopUpViewController.m; sourceTree = "<group>"; };
+		D1FED0F61D06CF9500E6BC90 /* PieMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieMenuViewController.h; sourceTree = "<group>"; };
+		D1FED0F71D06CF9500E6BC90 /* PieMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieMenuViewController.m; sourceTree = "<group>"; };
+		D1FED0FA1D06D0BB00E6BC90 /* PieMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieMenuView.h; sourceTree = "<group>"; };
+		D1FED0FB1D06D0BB00E6BC90 /* PieMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieMenuView.m; sourceTree = "<group>"; };
+		D1FED0FD1D06D3D500E6BC90 /* PieView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieView.h; sourceTree = "<group>"; };
+		D1FED0FE1D06D3D500E6BC90 /* PieView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +207,7 @@
 		D127A2901CD33F6D00CCE3E6 /* CollectionOfAnimationDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D1FED0F91D06D03A00E6BC90 /* PieMenuView */,
 				D10A8BE71CD491110083D2D8 /* Image */,
 				D10A8C0E1CD492640083D2D8 /* Sounds */,
 				D10A8BD51CD48DDA0083D2D8 /* DCPathButton */,
@@ -211,6 +227,12 @@
 				D10A8BC51CD488480083D2D8 /* ThumbUpAnimationViewController.m */,
 				D10A8C151CD4B09F0083D2D8 /* DragToRedrawViewController.h */,
 				D10A8C161CD4B09F0083D2D8 /* DragToRedrawViewController.m */,
+				D1FED0F61D06CF9500E6BC90 /* PieMenuViewController.h */,
+				D1FED0F71D06CF9500E6BC90 /* PieMenuViewController.m */,
+				D156CA5D1D0FFD7600AF1B67 /* TaoBaoPopUpViewController.h */,
+				D156CA5E1D0FFD7600AF1B67 /* TaoBaoPopUpViewController.m */,
+				D10A8C181CD4BD4B0083D2D8 /* DragToRedView.h */,
+				D10A8C191CD4BD4B0083D2D8 /* DragToRedView.m */,
 				D127A29D1CD33F6D00CCE3E6 /* Assets.xcassets */,
 				D127A29F1CD33F6D00CCE3E6 /* LaunchScreen.storyboard */,
 				D127A2A21CD33F6D00CCE3E6 /* Info.plist */,
@@ -225,6 +247,17 @@
 				D127A2921CD33F6D00CCE3E6 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D1FED0F91D06D03A00E6BC90 /* PieMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				D1FED0FA1D06D0BB00E6BC90 /* PieMenuView.h */,
+				D1FED0FB1D06D0BB00E6BC90 /* PieMenuView.m */,
+				D1FED0FD1D06D3D500E6BC90 /* PieView.h */,
+				D1FED0FE1D06D3D500E6BC90 /* PieView.m */,
+			);
+			path = PieMenuView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,13 +355,18 @@
 				D127A2AA1CD3447D00CCE3E6 /* SpinFlipViewController.m in Sources */,
 				D10A8C171CD4B09F0083D2D8 /* DragToRedrawViewController.m in Sources */,
 				D127A2991CD33F6D00CCE3E6 /* ZoomAnimationViewController.m in Sources */,
+				D156CA5F1D0FFD7600AF1B67 /* TaoBaoPopUpViewController.m in Sources */,
 				D127A2B21CD355F800CCE3E6 /* MainTableViewController.m in Sources */,
 				D10A8BDD1CD48DDA0083D2D8 /* DCPathCenterButton.m in Sources */,
 				D10A8BDE1CD48DDA0083D2D8 /* DCPathItemButton.m in Sources */,
+				D1FED0FC1D06D0BB00E6BC90 /* PieMenuView.m in Sources */,
 				D10A8BDC1CD48DDA0083D2D8 /* DCPathButton.m in Sources */,
+				D1FED0F81D06CF9500E6BC90 /* PieMenuViewController.m in Sources */,
 				D127A2961CD33F6D00CCE3E6 /* AppDelegate.m in Sources */,
 				D127A2AD1CD34BCB00CCE3E6 /* ThreeDAnimationViewController.m in Sources */,
+				D10A8C1A1CD4BD4B0083D2D8 /* DragToRedView.m in Sources */,
 				D127A2931CD33F6D00CCE3E6 /* main.m in Sources */,
+				D1FED0FF1D06D3D500E6BC90 /* PieView.m in Sources */,
 				D10A8BD31CD489180083D2D8 /* MCFireworksButton.m in Sources */,
 				D10A8BD41CD489180083D2D8 /* MCFireworksView.m in Sources */,
 				D10A8BC61CD488480083D2D8 /* ThumbUpAnimationViewController.m in Sources */,

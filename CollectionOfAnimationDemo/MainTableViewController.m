@@ -28,6 +28,8 @@
     [self addCell:@"3D动画效果" class:@"ThreeDAnimationViewController"];
     [self addCell:@"点赞动画" class:@"ThumbUpAnimationViewController"];
     [self addCell:@"拖动重绘" class:@"DragToRedrawViewController"];
+    [self addCell:@"扇形菜单" class:@"PieMenuViewController"];
+    [self addCell:@"淘宝弹出效果" class:@"TaoBaoPopUpViewController"];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -69,6 +71,8 @@
     if (class) {
         UIViewController *vc = class.new;
         vc.title = _titles[indexPath.row];
+        vc.view.backgroundColor = [UIColor whiteColor];
+        vc.edgesForExtendedLayout = NO;
         [self.navigationController pushViewController:vc animated:YES];
     }
     [self.tableView deselectRowAtIndexPath:indexPath animated:YES];

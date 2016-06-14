@@ -7,38 +7,30 @@
 //
 
 #import "DragToRedrawViewController.h"
+#import "DragToRedView.h"
 
 @interface DragToRedrawViewController ()<
 UIGestureRecognizerDelegate
 >{
     CGPoint _redViewCenter;
     CGPoint _drawViewCenter;
+    DragToRedView  * _view;
 }
 
 @end
 
 @implementation DragToRedrawViewController
 
--(void)drawLayer:(CALayer *)layer inContext:(CGContextRef)ctx{
-    
-    
-    CGContextRef context = UIGraphicsGetCurrentContext();
-    /*画线及孤线*/
-    //画线
-    CGPoint aPoints[2];//坐标点
-    aPoints[0] =_redViewCenter;//坐标1
-    aPoints[1] =_drawViewCenter;//坐标2
-    //CGContextAddLines(CGContextRef c, const CGPoint points[],size_t count)
-    //points[]坐标数组，和count大小
-    CGContextAddLines(context, aPoints, 2);//添加线
-    CGContextDrawPath(context, kCGPathStroke); //根据坐标绘制路径
-}
-
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.edgesForExtendedLayout = NO;
     self.view.backgroundColor = [UIColor whiteColor];
+    
+    
+    DragToRedView  * view = [[DragToRedView alloc] initWithFrame:self.view.frame];
+    view.backgroundColor =[UIColor whiteColor];
+    self.view = view;
     
     
     UILabel * aLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
@@ -66,6 +58,8 @@ UIGestureRecognizerDelegate
     redPointView.center = CGPointMake(self.view.center.x, 100);
     redPointView.layer.cornerRadius = redPointView.bounds.size.width / 2;
     _redViewCenter = redPointView.center;
+
+    
 }
 
 - (void)didReceiveMemoryWarning {
